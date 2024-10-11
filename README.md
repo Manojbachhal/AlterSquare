@@ -47,10 +47,6 @@ npm start
 
 ## API Endpoints
 
-```http
-  GET yak-shop/stock/T
-```
-
 | Base URL                 | endpoints          | request type | parameters     | description                                       |
 | :----------------------- | :----------------- | :----------- | :------------- | :------------------------------------------------ |
 | `http://localhost:3000/` | `yak-shop/stock/T` | `Get`        | number of days | Returns the milk and skin stock after T days.     |
@@ -64,8 +60,7 @@ npm start
 http://localhost:3000/yak-shop/stock/13
 ```
 
-- Response:
-- sample input
+- sample input for herd data
 
 ```bash
 {
@@ -89,6 +84,8 @@ http://localhost:3000/yak-shop/stock/13
 }
 
 ```
+
+- Response:
 
 ```bash
 {
